@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+SimpleEC2Instance:
+Type: "AWS::EC2::Instance"
+Properties:
+InstanceType: t3.micro
+ImageId: ami-0278a2977a50e13fc
+Tags:
+- Key: Name
+Value: MySimpleInstance
